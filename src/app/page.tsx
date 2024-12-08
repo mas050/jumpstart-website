@@ -1,15 +1,13 @@
 // src/app/page.tsx
 'use client';
-
 import React from 'react';
 import { ChevronRight, Zap, Search, FileText, Brain, Mic } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
 export default function HomePage() {
   const handleEmailClick = () => {
     window.location.href = 'mailto:jumpstart.ai.solution@gmail.com';
   };
-
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
       {/* Hero Section - Attention */}
