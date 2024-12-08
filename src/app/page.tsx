@@ -1,13 +1,14 @@
 // src/app/page.tsx
 'use client';
+
 import React from 'react';
-import { ChevronRight, Zap, Search, FileText, Brain, Mic } from 'lucide-react';
+import { ChevronRight, Zap, Search, FileText, Brain } from 'lucide-react';
 
 export default function HomePage() {
   const handleEmailClick = () => {
     window.location.href = 'mailto:jumpstart.ai.solution@gmail.com';
   };
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
       {/* Hero Section - Attention */}
@@ -33,12 +34,10 @@ export default function HomePage() {
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
             We build AI-powered solutions that solve complex business challenges in weeks, not months. From talent discovery to document processing, we make the impossible possible.
           </p>
-          {/* Commented out "See Our Solutions" button
           <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-full flex items-center mx-auto">
             See Our Solutions
             <ChevronRight className="ml-2" />
           </button>
-          */}
         </div>
       </header>
 
@@ -49,25 +48,14 @@ export default function HomePage() {
             Proven Solutions That Deliver Results
           </h3>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-            <div className="bg-slate-700 p-6 rounded-lg">
-              <Mic className="w-12 h-12 text-blue-500 mb-4" />
-              <h4 className="text-xl font-bold text-white mb-3">
-                Meeting Intelligence
-              </h4>
-              <p className="text-slate-300">
-                AI-powered meeting transcription that extracts key takeaways, action items, and decisions. Never miss crucial meeting details again.
-              </p>
-            </div>
-
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-slate-700 p-6 rounded-lg">
               <Search className="w-12 h-12 text-blue-500 mb-4" />
               <h4 className="text-xl font-bold text-white mb-3">
                 Talent Discovery Platform
               </h4>
               <p className="text-slate-300">
-                GenAI-powered CV analysis and semantic search to find the perfect candidates instantly. Reduce CV screening by 80%.
+                AI-powered CV analysis and semantic search to find the perfect candidates instantly. Reduce hiring time by 80%.
               </p>
             </div>
 
@@ -87,7 +75,7 @@ export default function HomePage() {
                 PDF Data Transformer
               </h4>
               <p className="text-slate-300">
-                Automatically validate the information in a system generated PDF document. Reduce manual labor and ensure perfect accuracy.
+                Automatically validate and structure PDF content. Reduce manual labor and ensure perfect accuracy.
               </p>
             </div>
           </div>
@@ -134,7 +122,7 @@ export default function HomePage() {
                 Result-Focused
               </h4>
               <p className="text-slate-300">
-                Flat-fee project pricing aligned with your success. We&apos;re not just consultants – we&apos;re your technology partners.
+                We&apos;re not just consultants - we&apos;re your technology partners focused on delivering tangible business outcomes.
               </p>
             </div>
           </div>
@@ -148,7 +136,7 @@ export default function HomePage() {
             Ready to Transform Your Business?
           </h3>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our AI solutions can solve your specific challenges and drive real business results.
+            Let&apos;s discuss how our AI solutions can solve your specific challenges and drive real business results.
           </p>
           <button 
             onClick={handleEmailClick}
@@ -163,7 +151,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-slate-900 py-8">
         <div className="container mx-auto px-4 text-center text-slate-500">
-          <p>© 2024 Jumpstart. All rights reserved.</p>
+          <p>&copy; 2024 Jumpstart. All rights reserved.</p>
         </div>
       </footer>
     </div>
