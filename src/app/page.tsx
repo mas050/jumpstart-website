@@ -46,9 +46,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold text-white text-center mb-12">
             Proven Solutions That Deliver Results
-          </h3>
-          
-          <div className="bg-slate-700 p-6 rounded-lg">
+          </h3>     
+
+          <div className="grid md:grid-cols-2 gap-8">
+
+            <div className="bg-slate-700 p-6 rounded-lg">
               <Mic className="w-12 h-12 text-blue-500 mb-4" />
               <h4 className="text-xl font-bold text-white mb-3">
                 Meeting Summary Tool
@@ -56,9 +58,8 @@ export default function HomePage() {
               <p className="text-slate-300">
                 Automatically generate comprehensive meeting summaries with action items and key insights using AI.
               </p>
-            </div>          
+            </div>     
 
-          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-slate-700 p-6 rounded-lg">
               <Search className="w-12 h-12 text-blue-500 mb-4" />
               <h4 className="text-xl font-bold text-white mb-3">
