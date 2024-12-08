@@ -2,7 +2,7 @@
 'use client';
 
 import React from 'react';
-import { ChevronRight, Zap, Search, FileText, Brain } from 'lucide-react';
+import { ChevronRight, Zap, Search, FileText, Brain, Mic } from 'lucide-react';
 
 export default function HomePage() {
   const handleEmailClick = () => {
@@ -34,10 +34,10 @@ export default function HomePage() {
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
             We build AI-powered solutions that solve complex business challenges in weeks, not months. From talent discovery to document processing, we make the impossible possible.
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-full flex items-center mx-auto">
+          {/* <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-full flex items-center mx-auto">
             See Our Solutions
             <ChevronRight className="ml-2" />
-          </button>
+          </button> */}
         </div>
       </header>
 
@@ -48,7 +48,7 @@ export default function HomePage() {
             Proven Solutions That Deliver Results
           </h3>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-slate-700 p-6 rounded-lg">
               <Search className="w-12 h-12 text-blue-500 mb-4" />
               <h4 className="text-xl font-bold text-white mb-3">
@@ -76,6 +76,16 @@ export default function HomePage() {
               </h4>
               <p className="text-slate-300">
                 Automatically validate and structure PDF content. Reduce manual labor and ensure perfect accuracy.
+              </p>
+            </div>
+
+            <div className="bg-slate-700 p-6 rounded-lg">
+              <Mic className="w-12 h-12 text-blue-500 mb-4" />
+              <h4 className="text-xl font-bold text-white mb-3">
+                Meeting Summary Tool
+              </h4>
+              <p className="text-slate-300">
+                Automatically generate comprehensive meeting summaries with action items and key insights using AI.
               </p>
             </div>
           </div>
