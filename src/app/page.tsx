@@ -48,6 +48,16 @@ export default function HomePage() {
             Proven Solutions That Deliver Results
           </h3>
           
+          <div className="bg-slate-700 p-6 rounded-lg">
+              <Mic className="w-12 h-12 text-blue-500 mb-4" />
+              <h4 className="text-xl font-bold text-white mb-3">
+                Meeting Summary Tool
+              </h4>
+              <p className="text-slate-300">
+                Automatically generate comprehensive meeting summaries with action items and key insights using AI.
+              </p>
+            </div>          
+
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-slate-700 p-6 rounded-lg">
               <Search className="w-12 h-12 text-blue-500 mb-4" />
@@ -76,16 +86,6 @@ export default function HomePage() {
               </h4>
               <p className="text-slate-300">
                 Automatically validate and structure PDF content. Reduce manual labor and ensure perfect accuracy.
-              </p>
-            </div>
-
-            <div className="bg-slate-700 p-6 rounded-lg">
-              <Mic className="w-12 h-12 text-blue-500 mb-4" />
-              <h4 className="text-xl font-bold text-white mb-3">
-                Meeting Summary Tool
-              </h4>
-              <p className="text-slate-300">
-                Automatically generate comprehensive meeting summaries with action items and key insights using AI.
               </p>
             </div>
           </div>
