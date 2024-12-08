@@ -134,7 +134,7 @@ export default function HomePage() {
                 Result-Focused
               </h4>
               <p className="text-slate-300">
-                Flat-fee project pricing aligned with your success. We're not just consultants – we're your technology partners.
+                Flat-fee project pricing aligned with your success. We&apos;re not just consultants – we&apos;re your technology partners.
               </p>
             </div>
           </div>
